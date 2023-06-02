@@ -11,8 +11,9 @@ import type {
 import { ContractFactory, Contract } from 'ethers';
 import { formatUnits } from 'ethers/lib/utils';
 import { Input, Button, Select } from 'antd';
+import logo from '../img/logo_w_text';
 import profileContract from './abi/ProfileImage.json';
-import ticketContract from './abi/TicketFactory.json'
+import ticketContract from './abi/TicketFactory.json';
 
 import './App.scss';
 
@@ -180,7 +181,7 @@ function App() {
     <div id='app'>
       <header>
       <div className="logo-container">
-        <img src='/img/logo_w_text.png' alt="Logo" className="logo" />
+        <img src={logo} alt="Logo" className="logo" />
       </div>
     </header>
       <div className='card'>
