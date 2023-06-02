@@ -11,7 +11,7 @@ import type {
 import { ContractFactory, Contract } from 'ethers';
 import { formatUnits } from 'ethers/lib/utils';
 import { Input, Button, Select } from 'antd';
-import logo from '../img/logo_w_text';
+import logo from '../img/logo_w_text.png';
 import profileContract from './abi/ProfileImage.json';
 import ticketContract from './abi/TicketFactory.json';
 
